@@ -10,7 +10,7 @@ const ImageComp = ({ animateName, image }) => {
         isObserve && `animate__animated animate__infinite ${animateName}`
       } `}
       src={`./images/${image}`}
-      alt='owl'
+      alt={image}
     />
   );
 };
